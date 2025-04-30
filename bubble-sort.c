@@ -1,5 +1,7 @@
+// bubble sort
+
 #include <stdio.h>
-void printArray(int arr[], int size)
+void display(int arr[], int size)
 {
     for (int i = 0; i < size; i++)
     {
@@ -40,8 +42,8 @@ int main()
         scanf("%d", &arr[i]);
     }
 
-    printArray(arr, size);
+    display(arr, size);
     bubbleSort(arr, size);
-    printArray(arr, size);
+    display(arr, size);
     return 0;
 }

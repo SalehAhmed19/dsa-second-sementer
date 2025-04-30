@@ -1,3 +1,5 @@
+// stack push - pop
+
 #include <stdio.h>
 #define CAPACITY 3
 int stack[CAPACITY];
