@@ -1,8 +1,9 @@
 # Data Structure - Second Semester
-### Push - Pop in Stack:
-**Logic:**
+## Push - Pop in Stack:
+### Logic:  
+
+**Push:**
 ```
-// Push Method:
 void push(int x)
 {
     if (top < CAPACITY - 1)
@@ -16,8 +17,10 @@ void push(int x)
         printf("Exception: Stack overflow\n");
     }
 }
+```
 
-// Pop Method:
+**Pop Method:**
+```
 int pop()
 {
     if (top >= 0)
