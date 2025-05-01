@@ -58,7 +58,7 @@ for (int i = 0; i < CAPACITY; i++)
 
 ## Insertion - Deletion in Array:
 *Full Code - (Insertion):* [Click here to see full code]()  
-*Full Code - (Deletion):* [Click here to see full code]()
+*Full Code - (Deletion):* [Click here to see full code](https://github.com/SalehAhmed19/dsa-second-sementer/blob/main/deletion-array.c)
 ### Logic:
 **Deletion:**
 ```
@@ -74,4 +74,27 @@ if (pos <= 0 || pos > size)
             size--;
         }
     }
+```
+
+## Bubble Sort:
+*Full Code:* [Click here to see full code](https://github.com/SalehAhmed19/dsa-second-sementer/blob/main/bubble-sort.c)
+### Logic:
+**Bubble Sort:**
+```
+void bubbleSort(int arr[], int size)
+{
+    int temp;
+    for (int i = 0; i < size - 1; i++)
+    {
+        for (int j = 0; j < size - 1 - i; j++)
+        {
+            if (arr[j] > arr[j + 1])
+            {
+                temp = arr[j];
+                arr[j] = arr[j + 1];
+                arr[j + 1] = temp;
+            }
+        }
+    }
+}
 ```
