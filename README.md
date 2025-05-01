@@ -57,7 +57,7 @@ for (int i = 0; i < CAPACITY; i++)
 ```
 
 ## Insertion - Deletion in Array:
-*Full Code - (Insertion):* [Click here to see full code]()
+*Full Code - (Insertion):* [Click here to see full code]()  
 *Full Code - (Deletion):* [Click here to see full code]()
 ### Logic:
 **Deletion:**
