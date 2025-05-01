@@ -2,7 +2,7 @@
 ## Push - Pop in Stack:
 ### Logic:  
 
-**Push:**
+**Push Method:**
 ```
 void push(int x)
 {
