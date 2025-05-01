@@ -55,3 +55,23 @@ for (int i = 0; i < CAPACITY; i++)
         printf("Element not found!\n");
     }
 ```
+
+## Insertion - Deletion in Array:
+*Full Code - (Insertion):* [Click here to see full code]()
+*Full Code - (Deletion):* [Click here to see full code]()
+### Logic:
+**Deletion:**
+```
+if (pos <= 0 || pos > size)
+    {
+        printf("Invalid position!\n");
+    }
+    else
+    {
+        for (i = pos - 1; i < size - 1; i++)
+        {
+            arr[i] = arr[i + 1];
+            size--;
+        }
+    }
+```
