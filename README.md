@@ -99,8 +99,9 @@ void bubbleSort(int arr[], int size)
 }
 ```
 
-## Linked List - Traversal
-*Full Code:* [Click here to see full code]()
+# Linked List
+## Traversal:
+*Full Code:* [Click here to see full code](https://github.com/SalehAhmed19/dsa-second-semester/blob/main/linkedlist-traversal.c)
 ### Logic:
 **Traversal:**
 ```
@@ -109,5 +110,18 @@ void linkedListTraversal(struct Node *ptr) {
     printf("Element: %d\n", ptr->data);
     ptr = ptr->next;
   }
+}
+```
+## Insertion in Beginning:
+*Full Code:* [Click here to see full code](https://github.com/SalehAhmed19/dsa-second-semester/blob/main/linkedlist-insertion-beginning.c)
+### Logic:
+**Beginning:**
+```
+struct Node * insertAtFirst(struct Node *head, int data){
+  struct Node *ptr = (struct Node *)malloc(sizeof(struct Node));
+  ptr -> next = head;
+  ptr -> data = data;
+
+  return ptr;
 }
 ```
