@@ -98,3 +98,16 @@ void bubbleSort(int arr[], int size)
     }
 }
 ```
+
+## Linked List - Traversal
+*Full Code:* [Click here to see full code]()
+### Logic:
+**Traversal:**
+```
+void linkedListTraversal(struct Node *ptr) {
+  while (ptr != NULL) {
+    printf("Element: %d\n", ptr->data);
+    ptr = ptr->next;
+  }
+}
+```
