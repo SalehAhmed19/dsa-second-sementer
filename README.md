@@ -35,3 +35,23 @@ int pop()
     return -1;
 }
 ```
+
+## Linear Search in Array:
+*Full Code:* [Click here to see full code](https://github.com/SalehAhmed19/dsa-second-sementer/blob/main/linear-search.c)
+### Logic:
+**Linear Search:**
+```
+for (int i = 0; i < CAPACITY; i++)
+    {
+        if (arr[i] == search)
+        {
+            printf("Enlement found at index [%d]\n", i);
+            found = 1;
+            break;
+        }
+    }
+    if (!found)
+    {
+        printf("Element not found!\n");
+    }
+```
