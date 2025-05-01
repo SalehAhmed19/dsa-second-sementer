@@ -1,6 +1,6 @@
 # Data Structure - Second Semester
 ## Push - Pop in Stack:
-*Full Code:* (Click Here)[https://github.com/SalehAhmed19/dsa-second-sementer/blob/main/stack-push-pop.c]
+*Full Code:* [https://github.com/SalehAhmed19/dsa-second-sementer/blob/main/stack-push-pop.c](Click Here)
 ### Logic:  
 
 **Push Method:**
